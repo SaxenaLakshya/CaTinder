@@ -1,0 +1,78 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-background-overlay {
+    background: linear-gradient(300deg, #ffb3ff, #ffcc80, #b3d9ff);
+    background-size: 200% 200%;
+    animation: overlay-gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#coursel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coursel {
+    width: 587px;
+    height: 516px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download {
+    height: 200px;
+    display: grid;
+    grid-column: 4fr;
+    grid-row: 4fr;
+    gap: 10px;
+}
+
+.download-buttons {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    width: 100%;
+}
